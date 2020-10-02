@@ -1,0 +1,23 @@
+Collection of connected nodes.
+
+List head -> 
+ ________    ________
+|____|___|->|____|___|  
+  node 1      node 2	
+
+Each node contains data part and address part.
+
+These nodes connect to the next node using a pointer.	
+
+The head pointer contains the address of the first node.
+
+The last nodes address part is NULL.
+
+If tail node contains adress of first node rather than NULL, it is a circular linked list.
+
+A DLL or a double linked list has a data part and two addresses or link parts(next (successor)and previous(predecessor)) for traversal in two directions.
+
+			NODE:
+ ____________ ________ ________
+|__Previous__|__Data__|__Next__|
+

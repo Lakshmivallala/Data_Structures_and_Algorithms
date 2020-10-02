@@ -1,0 +1,8 @@
+Queues: Collected of data of same data type. It has 2 ends (one named the rear(insert) and the other, front(deleted))
+
+Follows the FIRST IN FIRST OUT or the LAST IN LAST OUT 
+
+ ___  ___  ___  ___
+|___||___||_5_||_2_|
+rear	       front
+(insert)	(delete)

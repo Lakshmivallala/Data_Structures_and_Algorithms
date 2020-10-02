@@ -1,0 +1,13 @@
+Graphs are non linear data structures which represent daata using a collection of vertices and edges.
+
+
+        ___        ___
+	   |_1_|------|_2_|
+	     |
+	     |
+	     |=> edge
+	    _|_        
+	   |_3_|
+
+1,2,3 => vertices
+Edge = {<1,2>,<1,3>}

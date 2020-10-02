@@ -1,0 +1,10 @@
+Trees are hierarchical non linear data structures which represent elements in parent-child relationships.
+
+        ____________
+	   |___Parent___|
+
+	   |      		|
+      ______     ______ 
+	 |__C1__|   |__C2__|
+
+Where c1 and c2 are children.

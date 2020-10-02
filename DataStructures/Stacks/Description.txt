@@ -1,0 +1,9 @@
+Stacks: collection of data of same data type. It has only one end (the top) Insertion and deletion must be done from the top of the stack only (TOS)
+
+Stack follows FIRST IN LAST OUT OR LAST IN FIRST OUT
+
+|___|4 	
+|___|3	
+|___|2	
+|___|1	
+|___|0	
