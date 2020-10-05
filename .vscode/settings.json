@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "STACT_USING_LINKEDLIST.C": "cpp",
+        "QUEUE_USING_LINKEDLIST.C": "cpp"
+    }
+}
