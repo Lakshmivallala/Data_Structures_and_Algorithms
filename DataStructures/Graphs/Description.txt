@@ -1,4 +1,4 @@
-Graphs are non linear data structures which represent daata using a collection of vertices and edges.
+Graphs are non linear data structures which represent data using a collection of vertices and edges.
 
 
         ___        ___
