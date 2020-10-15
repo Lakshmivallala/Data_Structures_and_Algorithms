@@ -1,0 +1,33 @@
+# Hash Defines
+DEFINE INF 99999999999
+
+# algorithm for Edge Relaxation
+def func NodeRelax(u,v):
+	if (d[u]+w(u,v)<d[v]):
+		d[v] = d[u] + w(u,v)
+		pred[v] = u
+	end if
+end func NodeRelax
+# The predecessor pointer pred[] is for determining the shortest path
+
+# Main Dijkstra's Algorithm
+def func DijkstrasAlgorithm(G,w,s):
+	for (u belonging to V):
+		d[u] = INF
+		colour[u] = white
+	end for
+	d[s] = 0
+	pred[s] = NULL;
+	Q = <<queue with all vertices>>
+	
+	while (Q !-> NotNull):
+		u = extractMin(Q)
+	for (v belonging to Adj[u]):
+		if (d[v] + w(u,v) < d[v]):
+			d[v] = d[u] + w(u,v)
+			decreaseKey(Q,v,d[v])
+			pred[v] = u
+		end if
+	colour[u] = black
+	end for
+end func DijkstrasAlgorithm
